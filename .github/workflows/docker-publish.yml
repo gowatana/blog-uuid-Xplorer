@@ -14,8 +14,7 @@ on:
     tags: [ 'v*.*.*' ]
   pull_request:
     branches: [ ctr-build ]
-name: Create and publish a Docker image
-
+    
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: centos7
