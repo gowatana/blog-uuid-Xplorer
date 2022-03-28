@@ -15,7 +15,7 @@ on:
     
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: centos7
+  IMAGE_NAME: uuid-xplorer
 
 jobs:
   build-and-push-image:
