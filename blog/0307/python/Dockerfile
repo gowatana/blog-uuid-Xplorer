@@ -10,5 +10,7 @@ RUN pip install elasticsearch
 #RUN apt install -y netcat
 WORKDIR /home
 
+COPY app /home/app
+
 # execute jpyterlab
 CMD ["jupyter", "lab", "--ip=0.0.0.0", "--allow-root", "--LabApp.token=''"]
